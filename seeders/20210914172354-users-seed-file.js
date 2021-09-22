@@ -7,6 +7,7 @@ module.exports = {
       password: bcrypt.hashSync('12345678', bcrypt.genSaltSync(10), null),
       isAdmin: true,
       name: 'root',
+      account: 'root',
       createdAt: new Date(),
       updatedAt: new Date(),
       avatar: `https://loremflickr.com/320/240/boy/?random=${Math.random() * 100}`
@@ -15,6 +16,7 @@ module.exports = {
       password: bcrypt.hashSync('12345678', bcrypt.genSaltSync(10), null),
       isAdmin: false,
       name: 'user1',
+      account: 'user1',
       createdAt: new Date(),
       updatedAt: new Date(),
       avatar: `https://loremflickr.com/320/240/boy/?random=${Math.random() * 100}`
@@ -23,6 +25,7 @@ module.exports = {
       password: bcrypt.hashSync('12345678', bcrypt.genSaltSync(10), null),
       isAdmin: false,
       name: 'user2',
+      account: 'user2',
       createdAt: new Date(),
       updatedAt: new Date(),
       avatar: `https://loremflickr.com/320/240/boy/?random=${Math.random() * 100}`
